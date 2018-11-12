@@ -1,0 +1,9 @@
+#n Wyam.Yaml
+#n Wyam.Razor
+#n Wyam.Markdown
+#n Wyam.Minification
+
+Pipelines.Add("Admin",
+  CopyFiles("admin/*"),
+  WriteFiles()
+);
